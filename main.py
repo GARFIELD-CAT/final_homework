@@ -93,4 +93,4 @@ if __name__ == '__main__':
     print('Записываем результат работы программы в файл: clients_info.txt.')
     write_clients_info_to_file(clients_info)
     end = dt.now() - start
-    print(f'Программа завершила работу. Время время выполнения составило: {round(end.total_seconds())} секунд.')
+    print(f'Программа завершила работу. Время выполнения составило: {round(end.total_seconds())} секунд.')
